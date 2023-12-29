@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dialers</title>
+</head>
+<body>
+    <h1>Dialers</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Phone Number</th>
+                <th>Created Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for dialer in dialers %}
+                <tr>
+                    <td>{{ dialer.id }}</td>
+                    <td>{{ dialer.phone_number }}</td>
+                    <td>{{ dialer.created_date }}</td>
+                </tr>
+            {% empty %}
+                <tr>
+                    <td colspan="3">No dialers found.</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
