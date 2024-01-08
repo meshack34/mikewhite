@@ -161,7 +161,7 @@ def Airtime_bund(request):
             elif len(inputArray)==2:
                 response = "please enter your option\n1. Daily\n2. weekly\n3.monthly"
             elif len(inputArray) == 3:
-                response =  "CON Please Enter Your ID Number"
+                response =  "please enter your option\n1. Daily\n2. weekly\n3.monthly"
             elif len(inputArray) == 4:
                 response =  "CON Please Enter Your Phone Number"
           
