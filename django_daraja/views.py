@@ -164,9 +164,11 @@ def Airtime_bund(request):
                 response =  "please enter your option\n1. Daily\n2. weekly\n3.monthly"
             elif len(inputArray) == 4:
                 response =  "CON Please Enter Your Phone Number: "
-          
+            
             elif len(inputArray) ==5:
                 response =  "Enter amount : "
+            elif len(inputArray) ==6:
+                response = f"You have successfully bought {lastInput} of bundles/airtime"
             else:
                 response =  "END You seem to have input wrong credentials. Please try again."
 
