@@ -166,7 +166,7 @@ def Airtime_bund(request):
                 response =  "CON Please Enter Your Phone Number"
           
             elif len(inputArray) ==5:
-                response =  "END You will receive a message and An email with your report"
+                response =  "END You will receive a message "
             else:
                 response =  "END You seem to have input wrong credentials. Please try again."
 
