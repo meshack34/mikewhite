@@ -159,7 +159,7 @@ def Airtime_bund(request):
             if lastInput == '34':
                 response = "CON WELCOME TO Smarks Airtime And Bundles Resellers\n1. Buy Airtime\n2. Buy Bundle\n"
             elif len(inputArray)==2:
-                response = "Buy Airtime\n1. Buy For Self\n2. Buy for A friend"
+                response = "please enter your option\n1. Daily\n2. weekly\n3.monthly"
             elif len(inputArray) == 3:
                 response =  "CON Please Enter Your ID Number"
             elif len(inputArray) == 4:
